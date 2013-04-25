@@ -26,13 +26,14 @@ import java.util.jar.JarOutputStream;
 import java.util.jar.Manifest;
 import java.util.zip.ZipEntry;
 
+import org.apache.karaf.deployer.features.FeatureDeploymentListener;
 import org.apache.karaf.util.DeployerUtils;
 import org.osgi.framework.Constants;
 
 /**
- * Transform a feature descriptor into an bundles bundle
+ * Transform a feature descriptor into an repository bundle
  */
-public class FeatureTransformer {
+public class FeatureTransformerXXX {
 
     public static void transform(URL url, OutputStream os) throws Exception {
         // Heuristicly retrieve name and version
